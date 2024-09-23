@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D80118B82C9C5EAA00CA86D4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80118B72C9C5EAA00CA86D4 /* Constants.swift */; };
+		D86CAF242CA1A75200C2EC24 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CAF232CA1A75100C2EC24 /* Settings.swift */; };
 		D8B8CFD72CA056530023C998 /* Instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B8CFD62CA056530023C998 /* Instructions.swift */; };
 		D8C6F9662C99C0DC00505FCA /* HPotterDetailsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C6F9652C99C0DC00505FCA /* HPotterDetailsApp.swift */; };
 		D8C6F9682C99C0DC00505FCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C6F9672C99C0DC00505FCA /* ContentView.swift */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		D80118B72C9C5EAA00CA86D4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D86CAF232CA1A75100C2EC24 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		D8B8CFD62CA056530023C998 /* Instructions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instructions.swift; sourceTree = "<group>"; };
 		D8C6F9622C99C0DC00505FCA /* HPotterDetails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPotterDetails.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8C6F9652C99C0DC00505FCA /* HPotterDetailsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPotterDetailsApp.swift; sourceTree = "<group>"; };
@@ -57,7 +59,6 @@
 		D8C6F9592C99C0DC00505FCA = {
 			isa = PBXGroup;
 			children = (
-				D8B8CFD62CA056530023C998 /* Instructions.swift */,
 				D8C6F9642C99C0DC00505FCA /* HPotterDetails */,
 				D8C6F9632C99C0DC00505FCA /* Products */,
 			);
@@ -76,6 +77,8 @@
 			children = (
 				D8C6F9652C99C0DC00505FCA /* HPotterDetailsApp.swift */,
 				D8C6F9672C99C0DC00505FCA /* ContentView.swift */,
+				D86CAF232CA1A75100C2EC24 /* Settings.swift */,
+				D8B8CFD62CA056530023C998 /* Instructions.swift */,
 				D80118B72C9C5EAA00CA86D4 /* Constants.swift */,
 				D8C6F9732C99C35100505FCA /* trivia.json */,
 				D8C6F9692C99C0E000505FCA /* Assets.xcassets */,
@@ -183,6 +186,7 @@
 				D8C6F9662C99C0DC00505FCA /* HPotterDetailsApp.swift in Sources */,
 				D8B8CFD72CA056530023C998 /* Instructions.swift in Sources */,
 				D80118B82C9C5EAA00CA86D4 /* Constants.swift in Sources */,
+				D86CAF242CA1A75200C2EC24 /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
