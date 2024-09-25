@@ -23,6 +23,7 @@
 		D8C6F9822C99C43800505FCA /* spellcraft.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8C6F97A2C99C43800505FCA /* spellcraft.mp3 */; };
 		D8C6F9832C99C43800505FCA /* negative-beeps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8C6F97B2C99C43800505FCA /* negative-beeps.mp3 */; };
 		D8C6F9842C99C43800505FCA /* page-flip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8C6F97C2C99C43800505FCA /* page-flip.mp3 */; };
+		D8E69F132CA4492B00DE91D4 /* Gameplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E69F122CA4492B00DE91D4 /* Gameplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		D8C6F97A2C99C43800505FCA /* spellcraft.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spellcraft.mp3; sourceTree = "<group>"; };
 		D8C6F97B2C99C43800505FCA /* negative-beeps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "negative-beeps.mp3"; sourceTree = "<group>"; };
 		D8C6F97C2C99C43800505FCA /* page-flip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "page-flip.mp3"; sourceTree = "<group>"; };
+		D8E69F122CA4492B00DE91D4 /* Gameplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gameplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				D8C6F9652C99C0DC00505FCA /* HPotterDetailsApp.swift */,
 				D8C6F9672C99C0DC00505FCA /* ContentView.swift */,
+				D8E69F122CA4492B00DE91D4 /* Gameplay.swift */,
 				D86CAF232CA1A75100C2EC24 /* Settings.swift */,
 				D8B8CFD62CA056530023C998 /* Instructions.swift */,
 				D80118B72C9C5EAA00CA86D4 /* Constants.swift */,
@@ -183,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8C6F9682C99C0DC00505FCA /* ContentView.swift in Sources */,
+				D8E69F132CA4492B00DE91D4 /* Gameplay.swift in Sources */,
 				D8C6F9662C99C0DC00505FCA /* HPotterDetailsApp.swift in Sources */,
 				D8B8CFD72CA056530023C998 /* Instructions.swift in Sources */,
 				D80118B82C9C5EAA00CA86D4 /* Constants.swift in Sources */,
