@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D80118B82C9C5EAA00CA86D4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80118B72C9C5EAA00CA86D4 /* Constants.swift */; };
+		D80656EB2CB4189800EABD51 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80656EA2CB4189800EABD51 /* Game.swift */; };
 		D81612602CB2C90C00F8DAC9 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = D816125F2CB2C90C00F8DAC9 /* Question.swift */; };
 		D86CAF242CA1A75200C2EC24 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CAF232CA1A75100C2EC24 /* Settings.swift */; };
 		D8B8CFD72CA056530023C998 /* Instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B8CFD62CA056530023C998 /* Instructions.swift */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		D80118B72C9C5EAA00CA86D4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D80656EA2CB4189800EABD51 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		D816125F2CB2C90C00F8DAC9 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		D86CAF232CA1A75100C2EC24 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		D8B8CFD62CA056530023C998 /* Instructions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instructions.swift; sourceTree = "<group>"; };
@@ -87,8 +89,9 @@
 				D8E69F122CA4492B00DE91D4 /* Gameplay.swift */,
 				D86CAF232CA1A75100C2EC24 /* Settings.swift */,
 				D8B8CFD62CA056530023C998 /* Instructions.swift */,
-				D816125F2CB2C90C00F8DAC9 /* Question.swift */,
+				D80656EA2CB4189800EABD51 /* Game.swift */,
 				D8DBEEB62CAEDB0400CB53A6 /* Store.swift */,
+				D816125F2CB2C90C00F8DAC9 /* Question.swift */,
 				D80118B72C9C5EAA00CA86D4 /* Constants.swift */,
 				D8DBEEB52CAED2F200CB53A6 /* HPotterConfig.storekit */,
 				D8C6F9732C99C35100505FCA /* trivia.json */,
@@ -194,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8DBEEB72CAEDB0400CB53A6 /* Store.swift in Sources */,
+				D80656EB2CB4189800EABD51 /* Game.swift in Sources */,
 				D81612602CB2C90C00F8DAC9 /* Question.swift in Sources */,
 				D8C6F9682C99C0DC00505FCA /* ContentView.swift in Sources */,
 				D8E69F132CA4492B00DE91D4 /* Gameplay.swift in Sources */,
